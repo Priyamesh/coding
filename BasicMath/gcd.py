@@ -12,6 +12,8 @@ def gcd(n, m):
 
     another better:
     gcd(n,m) -> gcd(m, n%m) till m becomes 0
+
+    TC : O(log i (min(n,m)))
     """
     if m == 0:
         return n
